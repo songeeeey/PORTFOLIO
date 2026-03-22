@@ -84,7 +84,7 @@
 **기술 스택:** `Python` `Pandas` `Numpy` `Scikit-learn` `Matplotlib` `Seaborn`
 
 ## 📄 Portfolio
-👉 [포트폴리오 PDF 보기](./포트폴리오_양송이.pdf)
+👉 [포트폴리오 PDF 보기](./portfolio.pdf)
 
 ## 🏅 Certificates
 - SQLD (2025.06)
