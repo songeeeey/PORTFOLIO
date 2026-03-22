@@ -86,6 +86,8 @@
 ## 📄 Portfolio
 👉 [포트폴리오 PDF 보기](./portfolio.pdf)
 
+👉 [기술 블로그](https://blog.naver.com/songeeeey)
+
 ## 🏅 Certificates
 - SQLD (2025.06)
 - 컴퓨터활용능력 1급 (2025.03)
