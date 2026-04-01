@@ -1,9 +1,8 @@
 # PORTFOLIO
 
-꼼꼼한 데이터 품질 관리와 검증 구조 설계를 강점으로 하는 데이터 엔지니어 지망생 **양송이**입니다.
+언어 모델 학습부터 서비스 배포까지, 전 과정을 직접 구현하는 **AI 엔지니어 양송이**입니다.
 
 ## 🛠 Tech Stack
-
 <table>
   <tr>
     <td align="center" width="120"><b>Language</b></td>
@@ -13,9 +12,40 @@
     </td>
   </tr>
   <tr>
+    <td align="center"><b>LLM Application</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Model Training</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
     <td align="center"><b>Database</b></td>
     <td>
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend / Serving</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud & DevOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -25,13 +55,6 @@
       <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
       <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
       <img src="https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Backend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -47,15 +70,15 @@
 ## 📂 Projects
 
 ### 🤖 Project 1. AI 기반 회의 자동화 시스템 구축
-> 합성 데이터 품질 검증 기반 AI 회의 자동화 플랫폼
+> sLLM 파인튜닝과 RAG-에이전트 파이프라인 기반 회의 자동화 서비스
 
 - 📅 **기간:** 2025.10 ~ 2025.12 (52일)
 - 👥 **인원:** 6명
 
 **📌 담당 역할**
-- 파인튜닝용 합성 텍스트 데이터 2,621건 설계 및 생성
-- 형식/의미/중복 3단계 검증 파이프라인 직접 구축 → 최종 2,493건 정제
-- 프로젝트 기획 및 문서 작성
+- sLLM 파인튜닝 및 학습 데이터 설계/구축
+- RAG-에이전트 파이프라인 설계
+- 합성 데이터 품질 검증 파이프라인 구축
 
 **핵심 성과**
 - 모델 신뢰도 1/5 → 5/5 달성, GPTScore 약 6배 향상
@@ -65,17 +88,36 @@
 
 ---
 
-### 📚 Project 2. 도서관 이용자 이탈률 예측
-> EDA 기반 핵심 변수 도출 및 Stacking Ensemble 이탈 예측 모델 개발
+### 🏠 Project 2. 청년/신혼부부를 위한 주택청약 도우미 챗봇
+> RAG 기반 공공문서 질의응답 챗봇 서비스 개발 및 배포
+- 📅 기간: 2025.09 ~ 2025.10 (34일)
+- 👥 인원: 5명
+
+**📌 담당 역할**
+- 데이터 수집/전처리
+- LLM 환경 구축 및 모델 연동
+- 벡터 DB 기반 RAG 구조 구현
+
+**핵심 성과**
+- 4bit 양자화로 CUDA 오류 해결
+- 파인튜닝 비교 평가 후 EEVE+RAG 구조로 전환
+- AWS EC2 실서비스 배포 완료
+
+**기술 스택:** `Python` `LangChain` `Chroma DB` `Django` `AWS EC2` `Docker`
+
+---
+
+### 📚 Project 3. 도서관 이용자 이탈률 예측
+> 서울시 도서관 이용 데이터 기반 이탈 예측 모델 개발
 
 - 📅 **기간:** 2025.08 (2일)
 - 👥 **인원:** 5명
 
 
 **📌 담당 역할**
-- 데이터 수집 및 이상치 제거 (서울특별시 도서관 이용실태 설문 데이터)
-- 이탈 타겟 변수 직접 정의 및 파생변수 설계 (서울시 25개 구 → 3개 그룹 군집화)
-- 7개 범주형 변수 재코딩 및 EDA 수행
+- 데이터 수집 및 전처리
+- EDA
+- 파생변수 설계 담당
 
 **핵심 성과**
 - 이탈과 상관관계 가장 높은 변수 도출 (experience, 상관관계 -0.38)
