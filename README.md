@@ -1,7 +1,5 @@
 # PORTFOLIO
 
-언어 모델 학습부터 서비스 배포까지, 전 과정을 직접 구현하는 **AI 엔지니어 양송이**입니다.
-
 ## 🛠 Tech Stack
 <table>
   <tr>
@@ -126,7 +124,6 @@
 **기술 스택:** `Python` `Pandas` `Numpy` `Scikit-learn` `Matplotlib` `Seaborn`
 
 ## 📄 Portfolio
-👉 [포트폴리오 PDF 보기](./portfolio.pdf)
 
 👉 [기술 블로그](https://blog.naver.com/songeeeey)
 
